@@ -34,9 +34,11 @@ body {
 }
 
 .main {
-    height: 80vh;
+    height: 85vh;
     width: 50vw;
     display: flex;
+    overflow: hidden;
+    border-radius: 7px;
 }
 
 .main .main-left {
@@ -78,8 +80,8 @@ body {
 
 .main-right .container p {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 12px;
-    line-height: 27px;
+    margin-top: 25px;
+    line-height: 33px;
     color: var(--dark-grayish-blue);
     font-weight: 500;
 }
@@ -91,6 +93,7 @@ body {
     height: 8vh;
     align-items: flex-end;
     color: var(--dark-cyan);
+
 }
 
 .main-right .container .price .price-left {
