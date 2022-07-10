@@ -89,10 +89,11 @@ body {
 .main-right .container .price {
     font-family: 'Fraunces', serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 8vh;
     align-items: flex-end;
     color: var(--dark-cyan);
+    position: relative;
 
 }
 
@@ -101,9 +102,11 @@ body {
 }
 
 .main-right .container .price .price-right {
-    align-self: center;
     text-decoration: line-through;
     color: var(--dark-grayish-blue);
+    position: absolute;
+    left: 63%;
+    top: 49%;
 }
 
 .main-right .container button {
@@ -114,4 +117,5 @@ body {
     background-color: var(--dark-cyan);
     color: var(--white);
     font-weight: 700;
+    margin-top: 7px;
 }
